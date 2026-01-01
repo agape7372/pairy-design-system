@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -16,19 +17,19 @@ export default function RootLayout({
       <body className="antialiased">
         <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm border-b">
           <div className="max-w-6xl mx-auto px-4 py-3 flex items-center gap-6">
-            <a href="/pairy-design-system/" className="font-bold text-lg">
+            <Link href="/" className="font-bold text-lg">
               Pairy Design System
-            </a>
+            </Link>
             <div className="flex gap-4 text-sm">
-              <a href="/pairy-design-system/buttons/" className="hover:text-pink-500">
+              <Link href="/buttons/" className="hover:text-pink-500">
                 Buttons
-              </a>
-              <a href="/pairy-design-system/physics/" className="hover:text-pink-500">
+              </Link>
+              <Link href="/physics/" className="hover:text-pink-500">
                 Physics
-              </a>
-              <a href="/pairy-design-system/animations/" className="hover:text-pink-500">
+              </Link>
+              <Link href="/animations/" className="hover:text-pink-500">
                 Animations
-              </a>
+              </Link>
             </div>
           </div>
         </nav>

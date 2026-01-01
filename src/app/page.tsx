@@ -10,7 +10,7 @@ export default function Home() {
 
       <div className="grid gap-6 md:grid-cols-3">
         <Link
-          href="/pairy-design-system/buttons/"
+          href="/buttons/"
           className="block p-6 rounded-2xl border-2 hover:border-pink-300 hover:bg-pink-50 transition-all"
         >
           <h2 className="text-xl font-semibold mb-2">Button Variants</h2>
@@ -20,7 +20,7 @@ export default function Home() {
         </Link>
 
         <Link
-          href="/pairy-design-system/physics/"
+          href="/physics/"
           className="block p-6 rounded-2xl border-2 hover:border-pink-300 hover:bg-pink-50 transition-all"
         >
           <h2 className="text-xl font-semibold mb-2">Physics Buttons</h2>
@@ -30,7 +30,7 @@ export default function Home() {
         </Link>
 
         <Link
-          href="/pairy-design-system/animations/"
+          href="/animations/"
           className="block p-6 rounded-2xl border-2 hover:border-pink-300 hover:bg-pink-50 transition-all"
         >
           <h2 className="text-xl font-semibold mb-2">Animations</h2>
