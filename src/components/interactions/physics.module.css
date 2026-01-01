@@ -5,22 +5,8 @@
 
 /* ============================================
  * 마법 이징 함수 (Magic Easing)
+ * CSS 변수는 globals.css에 정의됨
  * ============================================ */
-
-:root {
-  /* Soft Magic - 부드러운 마법 */
-  --magic-soft: cubic-bezier(0.25, 0.8, 0.25, 1);
-  --magic-float: cubic-bezier(0.4, 0, 0.2, 1);
-  --magic-sparkle: cubic-bezier(0.34, 1.56, 0.64, 1);
-
-  /* Fairy - 요정 */
-  --fairy-flutter: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  --fairy-dust: cubic-bezier(0.16, 1, 0.3, 1);
-
-  /* Glow - 빛 */
-  --glow-pulse: cubic-bezier(0.4, 0, 0.6, 1);
-  --glow-fade: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
 
 /* ============================================
  * 공통 컨테이너 스타일
